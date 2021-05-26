@@ -3,7 +3,6 @@
 *{
     margin: 0;
     padding: 0; 
-  
     line-height: 1.6;
     
 }
@@ -160,6 +159,11 @@ h6{
 }
 .service img{
     margin: 10px;
+   
+}
+img, svg {
+    vertical-align: middle;
+    max-width: inherit;
 }
 .date {
     margin: 30px 15px;
@@ -204,11 +208,3 @@ h6{
     padding-left: 30px;
     
 }
-
-@media (max-width: 767.98px) { 
-    .foot{
-      margin-top: 25px;  
-     
-    }
-    
- }
